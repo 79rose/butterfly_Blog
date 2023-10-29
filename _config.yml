@@ -104,4 +104,6 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repository : git@47.115.213.194:/var/repo/blog.git
+  branch: master
